@@ -34,7 +34,7 @@ class vectorFields:
     def __init__(self, att_field_radius=1, att_field_area=1,  att_field_strength=1,
                       rep_field_radius=20, rep_field_area=50, rep_field_strength=3,
                                                max_vector=30, max_theta=0.87       ):
-
+        
         # initialise variable used to indicate
         self.x_att = self.x_rep = self.y_att = self.y_rep = self.dt_x = self.dt_y = 0.0
         self.att_field_radius = att_field_radius
@@ -56,15 +56,9 @@ class vectorFields:
         elif(att_range > (self.att_field_radius + self.att_field_area )):
             self.x_att = att_range * math.sin( (att_angle) )
             self.y_att = att_range * math.cos( (att_angle) )
-
         return [self.x_att, self.y_att]
 
     def repulsor(self, rep_range, rep_angle):
-
-        # rep_range = np.array(rep_range)
-        # rep_angle = np.array(rep_angle)
-        # for i,point in enumerate(rep_range):
-
         if(rep_range == 0):
             self.x_rep += 0
             self.y_rep += 0
@@ -74,7 +68,6 @@ class vectorFields:
         else:
             self.x_rep += 0
             self.y_rep += 0
-
         return [self.x_rep, self.y_rep]
 
     def get_heading(self):
@@ -90,12 +83,10 @@ class vectorFields:
         self.y_att = 0
 
         vector = min(vector, self.max_vector)
-
         if theta > self.max_theta:
             theta = self.max_theta
         elif theta < -self.max_theta:
             theta = -self.max_theta
- 
         return vector, theta, [self.dt_x, self.dt_y]
 
 
