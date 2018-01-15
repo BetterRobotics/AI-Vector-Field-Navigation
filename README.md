@@ -1,6 +1,6 @@
 # AI Vector Field Navigation - Will update with instructions within due time.
 
-<a href="https://www.codecogs.com/eqnedit.php?latex=U(q)=&space;U_A(q)&space;&plus;&space;U_R(q)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?
+<a href="https://www.codecogs.com/eqnedit.php?latex=U(q)=&space;U_A(q)&space;&plus;&space;U_R(q)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?>
 
 1) init class:
 
