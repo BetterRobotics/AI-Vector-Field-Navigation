@@ -1,6 +1,6 @@
 # AI Vector Field Navigation - Will update with instructions within due time.
 
-[tex]U(q)= U_A(q) + U_R(q)[/tex]
+\[U(q)= U_A(q) + U_R(q)\]
 
 1) init class:
 
