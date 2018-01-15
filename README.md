@@ -1,5 +1,4 @@
 # AI Vector Field Navigation - Instructions incomplete Will update within due time.
-____________________________________________________________________________________
 
 
 This script provides navigation to an autonomous system in just a few simple steps...
