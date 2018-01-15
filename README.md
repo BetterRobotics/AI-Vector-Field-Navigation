@@ -1,6 +1,5 @@
 # AI Vector Field Navigation - Will update with instructions within due time.
 
-\[U(q)= U_A(q) + U_R(q)\]
 
 1) init class:
 
