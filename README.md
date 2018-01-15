@@ -2,19 +2,19 @@
 
 1) init class:
 
-```nav = navigation.vectorFields(max_vector=15, max_theta=1.0)```
+        nav = navigation.vectorFields(max_vector=15, max_theta=1.0)
 
         
 2) Update Attractor position:
 
-```nav.attractor(att_range, att_angle)```
+        nav.attractor(att_range, att_angle)
 
 
 3) Update Repulsor position:
 
-```nav.repulsor(rep_range, rep_angle)```
+        nav.repulsor(rep_range, rep_angle)
         
        
 4) Get heading:
         
-``` vector, theta, [dt_x, dt_y] = nav.get_heading()```
+        vector, theta, [dt_x, dt_y] = nav.get_heading()
