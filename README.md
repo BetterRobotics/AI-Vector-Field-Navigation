@@ -2,7 +2,7 @@
 
 1) init class:
 
-        nav = navigation.vectorFields(max_vector=15, max_theta=1.0)
+        nav = navigation.vectorFields(max_vector=15, max_theta=1.0(radians))
 
         
 2) Update Attractor position:
