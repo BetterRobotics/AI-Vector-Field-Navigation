@@ -1,4 +1,4 @@
-# AI Vector Field Navigation - Will update with instructions within due time.
+# AI Vector Field Navigation
 
 
 1) init class:
